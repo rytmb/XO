@@ -1,6 +1,6 @@
-require_relative './game/player.rb'
-require_relative './game/board.rb'
-require_relative './game/game.rb'
+require_relative './game/player'
+require_relative './game/board'
+require_relative './game/game'
 
 game = Game.new
 game.play
